@@ -27,7 +27,9 @@ trace2 = go.Scatter(
 )
 data = [trace0, trace1, trace2]  # assign traces to data
 layout = go.Layout(
-    title = 'Line chart showing three different modes'
+    title = 'This Line chart showing three different modes'
 )
+
+
 fig = go.Figure(data=data,layout=layout)
 pyo.plot(fig, filename='line1.html')
