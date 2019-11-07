@@ -1,0 +1,4 @@
+[
+  "test_inc_dec.py::test_increment",
+  "test_inc_dec.py::test_decrement"
+]
